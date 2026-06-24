@@ -1,0 +1,49 @@
+# ============ 核心框架 ============
+pytest>=7.4.0,<9.0.0          # pytest 测试框架
+pytest-xdist>=3.5.0           # 并发执行测试用例（加速）
+pytest-ordering>=0.6          # 控制用例执行顺序
+pytest-rerunfailures>=12.0    # 失败用例自动重跑
+pytest-timeout>=2.2.0         # 设置测试超时时间
+pytest-assume>=2.4.3          # 一个用例中多个断言，即使失败也继续执行
+
+# ============ HTTP请求 ============
+requests>=2.31.0              # HTTP客户端库（发送请求的核心）
+httpx>=0.25.0                 # 异步HTTP客户端（可选，用于异步场景）
+
+# ============ 报告与日志 ============
+pytest-html>=4.0.0            # 生成HTML格式测试报告
+allure-pytest>=2.13.2         # Allure报告（更美观专业的报告）
+pytest-reportlog>=0.3.0       # JSON格式的日志报告（用于CI/CD）
+
+# ============ 数据处理 ============
+openpyxl>=3.1.2               # 读写Excel文件（.xlsx）
+xlrd>=2.0.1                   # 读取老版Excel（.xls）
+pyyaml>=6.0.1                 # 读写YAML配置文件
+toml>=0.10.2                  # 读写TOML配置文件（pyproject.toml）
+python-dotenv>=1.0.0          # 读取.env环境变量文件
+pandas>=1.5.0                 # 数据处理和分析
+
+# ============ 数据库操作 ============
+pymysql>=1.1.0                # MySQL数据库连接
+psycopg2-binary>=2.9.9        # PostgreSQL数据库连接
+redis>=5.0.0                  # Redis缓存操作
+
+# ============ 断言增强 ============
+jsonpath>=0.82.2              # JSON路径提取（用于接口响应断言）
+jsonschema>=4.20.0            # JSON Schema校验（验证响应结构）
+deepdiff>=6.7.0               # 深度对比两个JSON对象
+
+# ============ 日志 ============
+loguru>=0.7.2                 # 更简单好用的日志库（比logging更优雅）
+
+# ============ 工具类 ============
+python-dateutil>=2.8.2        # 时间日期处理
+faker>=20.0.0                 # 生成假数据（姓名、手机号、身份证等）
+parse>=1.20.0                 # 字符串解析（用于参数提取）
+retry>=0.9.2                  # 重试装饰器（非测试失败重跑，而是业务重试）
+
+# ============ 代码质量（可选但推荐） ============
+black>=23.0.0                 # 代码格式化工具
+flake8>=6.1.0                 # 代码规范检查
+mypy>=1.5.0                   # 类型检查
+pre-commit>=3.5.0             # Git提交前代码检查钩子
