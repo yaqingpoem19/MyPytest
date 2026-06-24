@@ -1,5 +1,4 @@
-
-                     基于Pytest的接口自动化测试框架
+                    基于Pytest的接口自动化测试框架
 
 ├── base/                      # 基础层
 │   └── method.py              # 封装请求方法 (如调用requests库)[citation:2]
