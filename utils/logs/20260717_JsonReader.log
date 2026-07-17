@@ -1,0 +1,8 @@
+2026-07-17 14:10:17 | INFO     | JsonReader | json_reader.py:25 | 读取JSON成功: F:\中科院空间技术航天项目资料\全量人员信息简化.txt
+2026-07-17 14:10:17 | INFO     | JsonReader | json_reader.py:25 | 读取JSON成功: F:\中科院空间技术航天项目资料\全量人员信息简化.txt
+2026-07-17 14:12:31 | INFO     | JsonReader | json_reader.py:25 | 读取JSON成功: F:\中科院空间技术航天项目资料\全量人员信息简化.txt
+2026-07-17 14:12:31 | INFO     | JsonReader | json_reader.py:25 | 读取JSON成功: F:\中科院空间技术航天项目资料\全量人员信息简化.txt
+2026-07-17 14:12:31 | INFO     | JsonReader | json_reader.py:34 | 获取JSON中的key值: email
+2026-07-17 14:15:34 | INFO     | JsonReader | json_reader.py:25 | 读取JSON成功: F:\中科院空间技术航天项目资料\全量人员信息简化.txt
+2026-07-17 14:15:34 | INFO     | JsonReader | json_reader.py:25 | 读取JSON成功: F:\中科院空间技术航天项目资料\全量人员信息简化.txt
+2026-07-17 14:15:34 | INFO     | JsonReader | json_reader.py:34 | 获取JSON中的key值: email

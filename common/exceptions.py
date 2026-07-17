@@ -1,16 +1,34 @@
 # common/exceptions.py
-class APIException(Exception):
-    """API异常基类"""
+class AutoTestException(Exception):
+    """自动化测试异常基类"""
     pass
 
-class APIRequestError(APIException):
-    """请求异常"""
+
+class APIRequestError(AutoTestException):
+    """API请求异常"""
     pass
 
-class APIResponseError(APIException):
-    """响应异常"""
+
+class APIResponseError(AutoTestException):
+    """API响应异常"""
     pass
 
-class AuthenticationError(APIException):
+
+class AuthenticationError(AutoTestException):
     """认证异常"""
+    pass
+
+
+class UIActionError(AutoTestException):
+    """UI操作异常"""
+    pass
+
+
+class ConfigError(AutoTestException):
+    """配置异常"""
+    pass
+
+
+class DataError(AutoTestException):
+    """数据异常"""
     pass

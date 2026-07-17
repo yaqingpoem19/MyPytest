@@ -1,0 +1,98 @@
+2026-07-01 14:31:59 - RESTClient - INFO - REST客户端初始化完成，环境: TEST, URL: http://192.168.6.190:30071
+2026-07-01 14:32:54 - RESTClient - INFO - REST客户端初始化完成，环境: TEST, URL: http://192.168.6.190:30071
+2026-07-01 14:32:54 - RESTClient - INFO - GET http://192.168.6.190:30071/http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 14:33:59 - RESTClient - ERROR - 请求超时: http://192.168.6.190:30071/http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 14:45:07 - RESTClient - INFO - REST客户端初始化完成，环境: TEST, URL: http://192.168.6.190:30071
+2026-07-01 14:45:07 - RESTClient - INFO - GET http://192.168.6.190:30071/http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 14:45:07 - RESTClient - INFO - 响应状态: 404
+2026-07-01 14:45:07 - RESTClient - ERROR - HTTP错误: 404 Client Error: Not Found for url: http://192.168.6.190:30071/http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree?projectCode=DM_fuqing_test01&oid=DM_fuqing_test01, 响应: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.21.5</center>
+</body>
+</html>
+
+2026-07-01 14:45:07 - RESTClient - ERROR - 请求异常: HTTP错误: 404 Client Error: Not Found for url: http://192.168.6.190:30071/http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree?projectCode=DM_fuqing_test01&oid=DM_fuqing_test01
+2026-07-01 14:46:25 - RESTClient - INFO - REST客户端初始化完成，环境: TEST, URL: http://192.168.6.190:30071
+2026-07-01 14:46:25 - RESTClient - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 14:46:25 - RESTClient - INFO - 响应状态: 200
+2026-07-01 14:49:14 - RESTClient - INFO - REST客户端初始化完成，环境: TEST, URL: http://192.168.6.190:30071
+2026-07-01 14:49:14 - RESTClient - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 14:49:15 - RESTClient - INFO - 响应状态: 200
+2026-07-01 14:51:55 - RESTClient - INFO - REST客户端初始化完成，环境: TEST, URL: http://192.168.6.190:30071
+2026-07-01 14:51:55 - RESTClient - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 14:51:56 - RESTClient - INFO - 响应状态: 200
+2026-07-01 14:55:54 - RESTClient - INFO - REST客户端初始化完成，环境: TEST, URL: http://192.168.6.190:30071
+2026-07-01 14:55:54 - RESTClient - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 14:55:54 - RESTClient - INFO - 响应状态: 200
+2026-07-01 16:14:22 - RESTClient(model) - INFO - 客户端初始化完成，服务: model, URL: http://192.168.6.190:30071
+2026-07-01 16:14:22 - RESTClient(model) - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 16:14:23 - RESTClient(model) - INFO - 响应状态: 200
+2026-07-01 16:57:33 - RESTClient(model) - INFO - 客户端初始化完成，服务: model, URL: http://192.168.6.190:30071
+2026-07-01 16:57:33 - RESTClient(model) - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 16:57:34 - RESTClient(model) - INFO - 响应状态: 200
+2026-07-01 16:57:34 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-01 16:57:34 - RESTClient(valid) - INFO - POST http://192.168.6.190:31053/valid/instance/DM_fuqing_test01/sun
+2026-07-01 16:57:34 - RESTClient(valid) - INFO - 响应状态: 200
+2026-07-01 16:58:04 - RESTClient(model) - INFO - 客户端初始化完成，服务: model, URL: http://192.168.6.190:30071
+2026-07-01 16:58:04 - RESTClient(model) - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 16:58:04 - RESTClient(model) - INFO - 响应状态: 200
+2026-07-01 16:58:04 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-01 16:58:04 - RESTClient(valid) - INFO - POST http://192.168.6.190:31053/valid/instance/DM_fuqing_test01/sun
+2026-07-01 16:58:04 - RESTClient(valid) - INFO - 响应状态: 200
+2026-07-01 18:18:47 - RESTClient(model) - INFO - 客户端初始化完成，服务: model, URL: http://192.168.6.190:30071
+2026-07-01 18:18:47 - RESTClient(model) - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-01 18:18:47 - RESTClient(model) - INFO - 响应状态: 200
+2026-07-01 18:18:47 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-02 09:15:34 - RESTClient(model) - INFO - 客户端初始化完成，服务: model, URL: http://192.168.6.190:30071
+2026-07-02 09:15:34 - RESTClient(model) - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-02 09:16:18 - RESTClient(model) - INFO - 响应状态: 200
+2026-07-02 09:16:18 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-02 09:22:03 - RESTClient(model) - INFO - 客户端初始化完成，服务: model, URL: http://192.168.6.190:30071
+2026-07-02 09:22:03 - RESTClient(model) - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-02 09:22:04 - RESTClient(model) - INFO - 响应状态: 200
+2026-07-02 09:22:04 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-02 10:10:06 - RESTClient(model) - INFO - 客户端初始化完成，服务: model, URL: http://192.168.6.190:30071
+2026-07-02 10:10:06 - RESTClient(model) - INFO - GET http://192.168.6.190:30071/modelobjservice/v1.0/objrelationsvr/objectrelation/tree
+2026-07-02 10:10:06 - RESTClient(model) - INFO - 响应状态: 200
+2026-07-02 10:10:06 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-02 10:12:38 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-02 10:14:48 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-02 10:14:48 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 10:16:53 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-02 10:16:53 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 10:16:53 - RESTClient(valid) - INFO - POST http://192.168.6.190:31053/valid/instance/DM_fuqing_test01/sun
+2026-07-02 10:17:58 - RESTClient(valid) - ERROR - 请求超时: http://192.168.6.190:31053/valid/instance/DM_fuqing_test01/sun
+2026-07-02 10:17:59 - RESTClient(valid) - INFO - POST http://192.168.6.190:31053/valid/instance/A1/sun
+2026-07-02 10:19:04 - RESTClient(valid) - ERROR - 请求超时: http://192.168.6.190:31053/valid/instance/A1/sun
+2026-07-02 10:33:04 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-02 10:33:04 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 10:36:59 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-02 10:36:59 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 10:36:59 - RESTClient(valid) - INFO - POST http://192.168.6.190:31053/valid/instance/DM_fuqing_test01/sun
+2026-07-02 10:38:04 - RESTClient(valid) - ERROR - 请求超时: http://192.168.6.190:31053/valid/instance/DM_fuqing_test01/sun
+2026-07-02 10:47:06 - RESTClient(valid) - INFO - 客户端初始化完成，服务: valid, URL: http://192.168.6.190:31053
+2026-07-02 10:47:06 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 10:58:43 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 11:15:31 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 11:18:14 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 13:47:23 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 13:47:23 - RESTClient(generatePackageNo) - INFO - POST http://192.168.6.190:31360/v1.0/datasync/id/generatePackageNo
+2026-07-02 13:47:23 - RESTClient(generatePackageNo) - ERROR - 请求异常: not enough values to unpack (expected 2, got 1)
+2026-07-02 13:51:40 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 13:51:40 - RESTClient(generatePackageNo) - INFO - POST http://192.168.6.190:31360/v1.0/datasync/id/generatePackageNo
+2026-07-02 13:51:40 - RESTClient(generatePackageNo) - ERROR - 请求异常: not enough values to unpack (expected 2, got 1)
+2026-07-02 13:59:17 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 14:02:07 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 14:11:16 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31360
+2026-07-02 14:11:16 - RESTClient(generatePackageNo) - INFO - POST http://192.168.6.190:31360/v1.0/datasync/id/generatePackageNo
+2026-07-02 14:11:17 - RESTClient(generatePackageNo) - INFO - 响应状态: 404
+2026-07-02 14:11:17 - RESTClient(generatePackageNo) - ERROR - HTTP错误: 404 Client Error:  for url: http://192.168.6.190:31360/v1.0/datasync/id/generatePackageNo, 响应: {"timestamp":"2026-07-02 14:11:16","status":404,"error":"Not Found","path":"/v1.0/datasync/id/generatePackageNo"}
+2026-07-02 14:11:17 - RESTClient(generatePackageNo) - ERROR - 请求异常: HTTP错误: 404 Client Error:  for url: http://192.168.6.190:31360/v1.0/datasync/id/generatePackageNo
+2026-07-02 14:26:04 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31100
+2026-07-02 14:26:04 - RESTClient(generatePackageNo) - INFO - POST http://192.168.6.190:31100/v1.0/datasync/id/generatePackageNo
+2026-07-02 14:26:04 - RESTClient(generatePackageNo) - INFO - 响应状态: 200
+2026-07-02 14:47:47 - RESTClient(generatePackageNo) - INFO - 客户端初始化完成，服务: generatePackageNo, URL: http://192.168.6.190:31100
+2026-07-02 14:47:47 - RESTClient(generatePackageNo) - INFO - POST http://192.168.6.190:31100/v1.0/datasync/id/generatePackageNo
+2026-07-02 14:47:47 - RESTClient(generatePackageNo) - INFO - 响应状态: 200

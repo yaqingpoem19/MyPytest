@@ -2,34 +2,52 @@
 import logging
 import sys
 from pathlib import Path
+from datetime import datetime
+from typing import Optional
 
 
-def get_logger(name: str, level: str = 'INFO') -> logging.Logger:
-    """获取日志记录器"""
-    logger = logging.getLogger(name)
+class LoggerManager:
+    """统一日志管理器"""
 
-    if not logger.handlers:
+    _loggers = {}
+    _log_dir = Path("logs")
+
+    @classmethod
+    def get_logger(cls, name: str, level: str = "INFO") -> logging.Logger:
+        """获取日志记录器; cls代表‌被调用的当前类本身（类对象），用于访问类属性、调用其他类方法或实例化对象;无需实例化即可调用"""
+        if name in cls._loggers:
+            return cls._loggers[name]
+
+        logger = logging.getLogger(name)
         logger.setLevel(getattr(logging, level.upper()))
 
-        # 控制台处理器
-        console_handler = logging.StreamHandler(sys.stdout)
-        console_handler.setLevel(logging.DEBUG)
+        if logger.handlers:
+            return logger
 
-        # 文件处理器
-        log_dir = Path(__file__).parent.parent / 'log'
-        log_dir.mkdir(exist_ok=True)
-        file_handler = logging.FileHandler(log_dir / 'test.log', encoding='utf-8')
-        file_handler.setLevel(logging.INFO)
+        cls._log_dir.mkdir(exist_ok=True)
 
-        # 格式化器
         formatter = logging.Formatter(
-            '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+            '%(asctime)s | %(levelname)-8s | %(name)s | %(filename)s:%(lineno)d | %(message)s',
             datefmt='%Y-%m-%d %H:%M:%S'
         )
-        console_handler.setFormatter(formatter)
-        file_handler.setFormatter(formatter)
 
-        logger.addHandler(console_handler)
+        # 控制台输出
+        console = logging.StreamHandler(sys.stdout)
+        console.setLevel(logging.INFO)
+        console.setFormatter(formatter)
+        logger.addHandler(console)
+
+        # 文件输出
+        log_file = cls._log_dir / f"{datetime.now().strftime('%Y%m%d')}_{name}.log"
+        file_handler = logging.FileHandler(log_file, encoding='utf-8')
+        file_handler.setLevel(logging.DEBUG)
+        file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
 
-    return logger
+        cls._loggers[name] = logger
+        return logger
+
+
+def get_logger(name: str = "AutoTest", level: str = "INFO") -> logging.Logger:
+    """便捷获取日志记录器"""
+    return LoggerManager.get_logger(name, level)

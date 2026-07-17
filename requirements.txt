@@ -1,5 +1,5 @@
 # ============ 核心框架 ============
-pytest>=7.4.0,<9.0.0          # pytest 测试框架
+pytest>=7.4.0          # pytest 测试框架
 pytest-xdist>=3.5.0           # 并发执行测试用例（加速）
 pytest-ordering>=0.6          # 控制用例执行顺序
 pytest-rerunfailures>=12.0    # 失败用例自动重跑
@@ -10,10 +10,16 @@ pytest-assume>=2.4.3          # 一个用例中多个断言，即使失败也继
 requests>=2.31.0              # HTTP客户端库（发送请求的核心）
 httpx>=0.25.0                 # 异步HTTP客户端（可选，用于异步场景）
 
+# ============ 配置读取 ============
+configparser>=5.3.0
+
 # ============ 报告与日志 ============
 pytest-html>=4.0.0            # 生成HTML格式测试报告
 allure-pytest>=2.13.2         # Allure报告（更美观专业的报告）
 pytest-reportlog>=0.3.0       # JSON格式的日志报告（用于CI/CD）
+
+# ============ 日志 ============
+loguru>=0.7.2                 # 更简单好用的日志库（比logging更优雅）
 
 # ============ 数据处理 ============
 openpyxl>=3.1.2               # 读写Excel文件（.xlsx）
@@ -33,9 +39,6 @@ jsonpath>=0.82.2              # JSON路径提取（用于接口响应断言）
 jsonschema>=4.20.0            # JSON Schema校验（验证响应结构）
 deepdiff>=6.7.0               # 深度对比两个JSON对象
 
-# ============ 日志 ============
-loguru>=0.7.2                 # 更简单好用的日志库（比logging更优雅）
-
 # ============ 工具类 ============
 python-dateutil>=2.8.2        # 时间日期处理
 faker>=20.0.0                 # 生成假数据（姓名、手机号、身份证等）
@@ -47,3 +50,7 @@ black>=23.0.0                 # 代码格式化工具
 flake8>=6.1.0                 # 代码规范检查
 mypy>=1.5.0                   # 类型检查
 pre-commit>=3.5.0             # Git提交前代码检查钩子
+
+# ============ UI自动化 (Playwright) ============
+playwright>=1.40.0
+pytest-playwright>=0.4.3
